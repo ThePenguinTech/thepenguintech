@@ -5,7 +5,7 @@ import {
   FaLaptop,
   FaEnvelope,
   FaBug,
-  FaBezierCurve,
+  FaChartLine,
   FaMobileAlt,
   FaBriefcase,
   FaTwitter,
@@ -159,7 +159,7 @@ export default function Home() {
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="bg-gray-700 bg-opacity-40 p-6 rounded-3xl">
                 <img
-                  class="w-40 rounded-full w-full object-cover object-center mb-6"
+                  class="w-40 h-40 rounded-full object-cover object-center mb-6"
                   src="/books.png"
                   alt="content"
                 />
@@ -200,7 +200,7 @@ export default function Home() {
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="bg-gray-700 bg-opacity-40 p-6 rounded-3xl">
                 <img
-                  class="w-40 rounded-full w-full object-cover object-center mb-6"
+                  class="w-40 h-40 rounded-full object-cover object-center mb-6"
                   src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/cb/5a/aa/cb5aaa20-842a-e817-5557-847e921455bc/AppIcon-0-0-1x_U007epad-0-0-85-220.png/1200x1200bb.jpg"
                   alt="content"
                 />
@@ -241,7 +241,7 @@ export default function Home() {
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="bg-gray-700 bg-opacity-40 p-6 rounded-3xl">
                 <img
-                  class="w-40 rounded-full w-full object-cover object-center mb-6"
+                  class="w-40 h-40 rounded-full object-cover object-center mb-6"
                   src="https://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/b4/6e/c1/b46ec179-5330-4af3-88c9-357ea90d0986/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-P3-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp"
                   alt="content"
                 />
@@ -282,7 +282,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section class="text-gray-400" ref={servicesSectionRef}>
+      <section class="text-gray-400 mx-4" ref={servicesSectionRef}>
         <div class="container px-5 py-12 mt-6 mx-auto">
           <div class="text-center mb-20">
             <h1 class="sm:text-3xl text-2xl font-medium title-font text-white mb-4">
@@ -292,14 +292,14 @@ export default function Home() {
               <div class="w-16 h-1 rounded-full bg-blue-500 inline-flex"></div>
             </div>
           </div>
-          <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+          <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6 bg-gray-700 bg-opacity-40 rounded-3xl">
             <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
               <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-blue-400 mb-5 flex-shrink-0">
                 <FaMobileAlt class="w-12 h-12 text-blue" />
               </div>
               <div class="flex-grow">
                 <h2 class="text-white text-lg title-font font-medium mb-3">
-                  iOS/Android Development
+                  Mobile App Development
                 </h2>
                 <p class="text-justify text-sm">
                   We are at the forefront of mobile app development, offering
@@ -362,7 +362,7 @@ export default function Home() {
             </div>
             <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
               <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-blue-400 mb-5 flex-shrink-0">
-                <FaBezierCurve class="w-12 h-12 text-blue" />
+                <FaChartLine class="w-12 h-12 text-blue" />
               </div>
               <div class="flex-grow">
                 <h2 class="text-white text-lg title-font font-medium mb-3">
