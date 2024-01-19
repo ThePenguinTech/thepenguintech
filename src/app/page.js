@@ -609,7 +609,7 @@ export default function Home() {
             <img className="relative " src="/tpt.png" alt="" width={70} />
           </a>
           <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
-            © 2023 The Penguin Technologies (TPT)
+            © 2024 The Penguin Technologies (TPT)
             {/* <a
               href="https://twitter.com/knyttneve"
               class="text-gray-500 ml-1"
